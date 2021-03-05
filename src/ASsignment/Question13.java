@@ -1,5 +1,6 @@
 package ASsignment;
 
+import javax.crypto.spec.PSource;
 import java.util.Scanner;
 
 public class Question13 {
@@ -10,10 +11,11 @@ public class Question13 {
         int a = input.nextInt();
 
         while(a>0){
-            System.out.println("Entered number is: " + a);
-
-
+            System.out.println("Re Enter num");
+            a= input.nextInt();
         }
+
+        System.out.println("Entered numbver by user: "+a);
 
 
     }
