@@ -13,11 +13,17 @@ public class TypeCastingDemo2 {
         System.out.println(c2);
         System.out.println(b2);
 
+        System.out.println("=======");
         char c3= 77;
         byte b3=(byte)c3;
+        System.out.println(c3);
+        System.out.println(b3);
+        System.out.println("=======");
 
         byte b4=88;
         char c4=(char)b4;
+        System.out.println(b4);
+        System.out.println(c4);
 
     }
 }
