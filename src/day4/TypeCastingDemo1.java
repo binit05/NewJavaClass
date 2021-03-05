@@ -9,12 +9,16 @@ public class TypeCastingDemo1 {
         System.out.println(i1);
         System.out.println(b1);
 
+        System.out.println("============");
+
         int i2= 127;
         // by java programmer
         byte b2=(byte)i2; // explicit type casting (conversion)
         System.out.println(i2);
         System.out.println(b2);
 
+
+        System.out.println("============");
         int i3=200;
         byte b3=(byte)i3;
         System.out.println(i3);
