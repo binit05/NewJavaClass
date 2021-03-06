@@ -1,5 +1,7 @@
 package day8;
 
+import java.util.Scanner;
+
 public class Student {
     //non static variable
     // instance variable, member's data, data,properties, attributes,field
@@ -11,18 +13,21 @@ public class Student {
         roll=r;
     }*/
 
-    public Student(String n, int r){
+    public Student(String n){
         name=n;
-        roll=r;
         System.out.println("constructor called");
     }
 
     public void displayInfo(){
         System.out.println("name is: "+ name);
-        System.out.println("roll is: "+roll);
+        //System.out.println("roll is: "+roll);
     }
     public static void main(String[] args) {
-        Student student1=new Student("ram",33);
+
+        Scanner inpp= new Scanner((System.in));
+        System.out.println("NAME HAL ");
+        String namhale= inpp.next();
+        Student student1=new Student(namhale);
 
         student1.displayInfo();
 
@@ -30,7 +35,7 @@ public class Student {
         student1.displayInfo();
 
         System.out.println("============");
-        Student student2=new Student("shyam",23);
+        Student student2=new Student("shyam");
 
         student2.displayInfo();
 
