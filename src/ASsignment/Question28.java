@@ -69,9 +69,7 @@ public class Question28 {
         int fl=0;
         int simple=0;
 
-       /* do {
-            count+=1;
-        }while(count<=n);*/
+
 
 
         while(count<=n1){
