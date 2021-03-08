@@ -36,6 +36,7 @@ public class Student {
 
         System.out.println("============");
         Student student2=new Student("shyam");
+      //  student2.name="Binit";
 
         student2.displayInfo();
 

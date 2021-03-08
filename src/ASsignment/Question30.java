@@ -10,12 +10,12 @@ public class Question30 {
         int fina=0;
         int i=3;
 
-        System.out.println(1);
-        System.out.println(1);
+        System.out.print(1);
+        System.out.print(" "+1);
 
         while(i<=n){
             fina =def+def1;
-            System.out.println(fina);
+            System.out.print(" "+fina);
             def=def1;
             def1=fina;
             i+=1;
