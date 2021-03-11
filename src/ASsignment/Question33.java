@@ -39,6 +39,10 @@ public class Question33 {
                         b[i] = c;
                         binit=c;
                     }
+
+                    else {
+                        binit = b[i];
+                    }
                 }
             }
             counter+=1;
